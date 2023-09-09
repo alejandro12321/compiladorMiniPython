@@ -1,1 +1,3 @@
 print("Hola mundo")
+def suma():
+  1+2
