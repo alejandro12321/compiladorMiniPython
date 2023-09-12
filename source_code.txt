@@ -1,3 +1,20 @@
-x = 5
-def main():
-  print("hola mundo")
+# Example code in your custom language
+
+# Define a function
+def add(a, b):
+    result = a + b
+    return result
+
+# Conditional statement
+if result > 10:
+    print("Result is greater than 10")
+else:
+    print("Result is not greater than 10")
+
+# Looping
+for i in range(5):
+    print("Iteration:", i)
+
+# Function call
+sum = add(5, 3)
+print("Sum:", sum)
