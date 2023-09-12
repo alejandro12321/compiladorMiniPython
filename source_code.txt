@@ -1,1 +1,3 @@
-print("Hola mundo")
+def main():
+  print("hola mundo")
+main()
