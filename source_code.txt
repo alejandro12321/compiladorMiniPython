@@ -1,8 +1,8 @@
-“””
+"""
 Ejemplo de prueba 
 para Análisis Sintáctico
 PUEDE CONTENER ERRORES DE TABULACIÓN CAUSADOS POR EL FORMATO DE WORD
-“””
+"""
 
 #Calcular factorial
 def calcularFac(num):
