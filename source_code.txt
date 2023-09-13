@@ -15,7 +15,7 @@ def calcularFac(num):
 		num_aux = num * (calcularFac(num-1))
 	return num_aux
 
-#ventas = [100,200,300,400,500]
+#ventas = [100,200,300,400,500]		#cambios
 
 #promedio de elementos
 def promedio(cualquier_arreglo):
