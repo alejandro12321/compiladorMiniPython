@@ -15,7 +15,7 @@ def calcularFac(num):
 		num_aux = num * (calcularFac(num-1))
 	return num_aux
 
-#ventas = [100,200,300,400,500]		#cambiadito
+#ventas = [100,200,300,400,500]		#cambiadote
 
 #promedio de elementos
 def promedio(cualquier_arreglo):
@@ -32,12 +32,12 @@ def promedio(cualquier_arreglo):
 	else:
 		resultado = 0
 	return resultado
-
+	
 def calcularpromedioventas():
 	prom = promedio(ventas)
 	print("El promedio de las ventas es: ")
 	print(prom)
-
+	
 def main():
 		print("Calculo del Factorial: " + calcularFac(6))
 		calcularpromedioventas()
