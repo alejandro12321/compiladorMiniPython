@@ -32,7 +32,9 @@ def promedio(cualquier_arreglo):
 	else:
 		resultado = 0
 	return resultado
-	
+
+
+#coment	
 def calcularpromedioventas():
 	prom = promedio(ventas)
 	print("El promedio de las ventas es: ")
