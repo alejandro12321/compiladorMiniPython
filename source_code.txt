@@ -3,7 +3,9 @@ Ejemplo de prueba
 para Análisis Sintáctico
 PUEDE CONTENER ERRORES DE TABULACIÓN CAUSADOS POR EL FORMATO DE WORD
 """
-
+'''
+Otro bloque de comentarios
+'''
 #Calcular factorial
 def calcularFac(num):
 	num_aux = 0
