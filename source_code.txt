@@ -17,11 +17,6 @@ def calcularFac(num):
 
 #ventas = [100,200,300,400,500]
 
-#Comment
-def promedio2(mi_lista):
-	algo = len(mi_lista)
-
-
 #promedio de elementos
 def promedio(cualquier_arreglo):
 	tam = len(cualquier_arreglo)
@@ -43,6 +38,6 @@ def calcularpromedioventas():
 	print("El promedio de las ventas es: ")
 	print(prom)
 
-def main():
+def main();
 		print("Calculo del Factorial: " + calcularFac(6))
 		calcularpromedioventas()
