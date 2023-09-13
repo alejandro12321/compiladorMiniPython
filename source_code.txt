@@ -38,7 +38,6 @@ def calcularpromedioventas():
 	print("El promedio de las ventas es: ")
 	print(prom)
 
-
 def main():
 		print("Calculo del Factorial: " + calcularFac(6))
 		calcularpromedioventas()
