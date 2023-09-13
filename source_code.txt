@@ -14,4 +14,5 @@ def calcularFac(num):
 	else:
 		num_aux = num * (calcularFac(num-1))
 	return num_aux
+
 #ventas = [100,200,300,400,500]
