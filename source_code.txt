@@ -28,13 +28,17 @@ def promedio(cualquier_arreglo):
         cont = cont + 1
     if tam > 0:
         resultado = sumatoria / tam
-    return resultado
+    else:					# Se agrega un else con una asignación a resultado
+	resultado = 0
+    return resultado				#Parser Error - line 31:4 mismatched input 'return' expecting 'else' # Todo if lleva else
+    
 
 def calcularpromedioventas():
     prom = promedio(len(ventas))
     print("El promedio de las ventas es: ")
-    print '\n'
-    	print(prom) #posible error de indentación
+    print("\n")
+    '''print '\n'					#Scanner Error - line 36:11 token recognition error at: '\' # Se deben usar comillas dobles, comillas simples toma solamente un char y el \ no está definido en la gramática # Parser error - line 36:14 mismatched input ... # El print debe llevar parentesis
+    	print(prom) #posible error de indentación'''
 
 print("Calculo del Factorial:%$ " + calcularFac(6))
 print calcularpromedioventas(hola,10)
