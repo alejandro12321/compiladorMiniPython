@@ -48,6 +48,8 @@ def calcularpromedioventas():
 
 print("Calculo del Factorial:%$ " + calcularFac(6))
 print calcularpromedioventas(hola,10)
+
+#Acá se agregan algunas pruebas extra que no venían en el archivo
 lista = [1,2,3]
 w = 10
 x = "hola mundo"
