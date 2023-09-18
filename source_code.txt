@@ -1,8 +1,13 @@
 """
 	Código de prueba para 
 	# Análisis Sintáctico #
+'''
+	comentario anidado
+'''
 
 """
+
+#commentario doble '''blablabla'''
 #Calcular factorial
 def calcularFac(num):
     num_aux = 0
