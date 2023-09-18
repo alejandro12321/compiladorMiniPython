@@ -1,44 +1,40 @@
 """
-Ejemplo de prueba 
-para Análisis Sintáctico
-PUEDE CONTENER ERRORES DE TABULACIÓN CAUSADOS POR EL FORMATO DE WORD
+	Código de prueba para 
+	# Análisis Sintáctico #
+
 """
-'''
-Otro bloque de comentarios
-'''
 #Calcular factorial
 def calcularFac(num):
-  num_aux = 0
-  if (num < 1):
-    num_aux = 1
-  else:
-    num_aux = num * (calcularFac(num-1))
-  return num_aux
+    num_aux = 0
+    if (num < 1):
+        num_aux = -1
+    else:
+        num_aux = num * (calcularFac(num--1))
+    return num_aux
 
-#ventas = [100,200,300,400,500]
+ventas = [100,200,300,400,500,-3.14]
+
+Caracter = '%'
 
 #promedio de elementos
 def promedio(cualquier_arreglo):
-  tam = len(cualquier_arreglo)
-  resultado=0
-  #ciclo para recorrer arreglo
-  cont = 0
-  sumatoria = 0
-  while (cont <= tam-1):
-    sumatoria = sumatoria + cualquier_arreglo[cont]
-    cont = cont + 1
-  if tam > 0:
-    resultado = sumatoria / tam
-  else:
-    resultado = 0
-  return resultado
-
+    tam = len(cualquier_arreglo)
+    resultado=0
+    #ciclo para recorrer arreglo
+    cont = 0
+    sumatoria = 0
+    while (cont <= (tam-1)):
+        sumatoria = sumatoria + cualquier_arreglo[cont]
+        cont = cont + 1
+    if tam > 0:
+        resultado = sumatoria / tam
+    return resultado
 
 def calcularpromedioventas():
-  prom = promedio(ventas)
-  print("El promedio de las ventas es: ")
-  print(prom)
+    prom = promedio(len(ventas))
+    print("El promedio de las ventas es: ")
+    print '\n'
+    	print(prom) #posible error de indentación
 
-def main():
-    print("Calculo del Factorial: " + calcularFac(6))
-    calcularpromedioventas()
+print("Calculo del Factorial:%$ " + calcularFac(6))
+print calcularpromedioventas(hola,10)
