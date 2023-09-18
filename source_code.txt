@@ -49,5 +49,10 @@ def calcularpromedioventas():
 print("Calculo del Factorial:%$ " + calcularFac(6))
 print calcularpromedioventas(hola,10)
 lista = [1,2,3]
+w = 10
+x = "hola mundo"
+y = 'f'
+z = 2.3
+
 for i in lista:
 	print(i)
