@@ -30,7 +30,8 @@ def promedio(cualquier_arreglo):
 		resultado = sumatoria / tam
 	else:					# Se agrega un else con una asignación a resultado
 		resultado = 0
-	return resultado				#Parser Error - line 31:4 mismatched input 'return' expecting 'else' # Todo if lleva else
+	return resultado				
+'''Parser Error - line 31:4 mismatched input 'return' expecting 'else' # Todo if lleva else'''
     
 
 def calcularpromedioventas():
