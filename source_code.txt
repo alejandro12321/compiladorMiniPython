@@ -1,2 +1,1 @@
-def calcularFac(num):
-    num_aux = 0
+x = 0
